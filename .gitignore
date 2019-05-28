@@ -1,1 +1,8 @@
-owl.sh
+# ignore all (symlinks)
+*
+
+# include (sub)directories
+!.gitignore
+!*/
+!*/*
+owl*
